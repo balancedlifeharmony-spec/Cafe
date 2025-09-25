@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic SEO -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victory Hour Café | Artisan Coffee Shop</title>
+  <meta name="description" content="Victory Hour Café — artisan coffee, crafted for students and creatives.">
+  <meta property="og:title" content="Victory Hour Café">
+  <meta property="og:description" content="Modern artisan coffee shop for students and creatives.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Navbar with language toggle -->
+  <header class="navbar">
+    <div class="logo">Victory Hour Café</div>
+    <nav>
+      <ul>
+        <li><a href="#features" data-i18n="nav_features">Features</a></li>
+        <li><a href="#testimonials" data-i18n="nav_testimonials">Testimonials</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="lang-toggle" aria-label="Toggle language">FR</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="main">
+    <img src="assets/hero.jpg" alt="Coffee cup with latte art" class="hero-img">
+    <div class="hero-text">
+      <h1 data-i18n="hero_title">Artisan Coffee, Student Vibes</h1>
+      <p data-i18n="hero_subtitle">Crafted for thinkers, dreamers, and doers.</p>
+      <a href="#contact" class="cta" data-i18n="hero_cta">Visit Us</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <h2 data-i18n="features_title">Why Choose Us?</h2>
+    <div class="feature-cards">
+      <article class="card">
+        <img src="assets/feature1.jpg" alt="Barista pouring coffee">
+        <h3 data-i18n="feature1_title">Expert Baristas</h3>
+        <p data-i18n="feature1_text">Our team crafts every cup with care and passion.</p>
+      </article>
+      <article class="card">
+        <img src="assets/feature2.jpg" alt="Laptop and notebook on a café table">
+        <h3 data-i18n="feature2_title">Student-Friendly Space</h3>
+        <p data-i18n="feature2_text">Free Wi-Fi and cozy corners for study sessions.</p>
+      </article>
+      <article class="card">
+        <img src="assets/feature3.jpg" alt="Fresh pastries and croissants">
+        <h3 data-i18n="feature3_title">Fresh Pastries</h3>
+        <p data-i18n="feature3_text">Locally baked treats to pair with your coffee.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <h2 data-i18n="testimonials_title">What Students Say</h2>
+    <div class="carousel">
+      <figure class="testimonial active">
+        <img src="assets/testimonial1.jpg" alt="Happy student customer">
+        <blockquote data-i18n="testimonial1_text">“Best place to recharge between classes!”</blockquote>
+        <figcaption>— Alex, Student</figcaption>
+      </figure>
+      <!-- More slides can be added here -->
+      <button class="carousel-btn prev" aria-label="Previous testimonial">‹</button>
+      <button class="carousel-btn next" aria-label="Next testimonial">›</button>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 data-i18n="contact_title">Find Us</h2>
+    <p data-i18n="contact_text">123 Campus Street, Cityville</p>
+    <p><a href="mailto:hello@victoryhourcafe.com">hello@victoryhourcafe.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Victory Hour Café</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
